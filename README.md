@@ -95,14 +95,20 @@ The project includes a **Power BI dashboard** file:
 ---
 
 ## 📂 Repository Structure
+
+```text
 ├── data/
-│ ├── data.csv
+│   └── data.csv
+│
 ├── scripts/
-│ ├── extract.py
-│ ├── transform.py
-│ └── load_to_redshift.py
+│   ├── extract.py
+│   ├── transform.py
+│   └── load_to_redshift.py
+│
 ├── dashboard/
-│ └── SalarySurveyDataDashboard.pbix
+│   └── SalarySurveyDataDashboard.pbix
+│
 ├── workflow-diagram/
-│ └── Salary Survey Data.pdf
+│   └── Salary Survey Data.pdf
+│
 └── README.md
